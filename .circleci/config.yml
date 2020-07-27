@@ -7,3 +7,5 @@ jobs:
       - run: docker login --username mangeshdocker --password Nescafe_90
       - run: docker build -t mangeshdocker/sample-bulletin:latest . 
       - run: docker push mangeshdocker/sample-bulletin:latest
+      
+      

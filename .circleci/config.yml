@@ -5,7 +5,7 @@ jobs:
     steps:
       - checkout
       - run: pwd
-      - run: cd ./bulletin-board-app
+      - run: cd /home/circleci/project/bulletin-board-app
       - run: pwd
       - run: ls
       - run: docker login --username mangeshkdocker --password Nescafe_90

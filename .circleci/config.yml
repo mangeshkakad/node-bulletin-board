@@ -8,3 +8,4 @@ jobs:
       - run: docker build -t mangeshdocker/sample-bulletin:latest . 
       - run: docker push mangeshdocker/sample-bulletin:latest
       
+      
